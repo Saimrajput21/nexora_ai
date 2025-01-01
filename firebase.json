@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "nexoraai",
+          "appId": "1:94277441736:android:662db5469251f7ad42edfd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "nexoraai",
+          "configurations": {
+            "android": "1:94277441736:android:662db5469251f7ad42edfd",
+            "web": "1:94277441736:web:00915c52be1213b842edfd",
+            "windows": "1:94277441736:web:41b893d08ff8e9cb42edfd"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
